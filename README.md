@@ -18,11 +18,18 @@ A premium neon terminal theme for Termux.
 ## Installation
 
 ```bash
-pkg update
-pkg install git
-git clone https://github.com/rdxsakib65/Termux-theme-/edit/main/README.md
-cd TERMUX-PRO-PREMIUM
+
+pkg update -y
+pkg install git -y
+
+git clone https://github.com/rdxsakib65/Termux-theme-.git
+
+cd Termux-theme-
+
+ls
+
 bash install.sh
+
 ```
 
 ## Launch Menu
